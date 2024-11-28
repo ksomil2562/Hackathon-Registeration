@@ -12,7 +12,7 @@ dotenv.config({ path: "./config.env" });
 // );
 
 mongoose
-  .connect("mongodb+srv://pratyushksk:H6CEEzmgsP7AMDoU@cluster0.bvmxb.mongodb.net/")
+  .connect("mongodb+srv://pratyushksk:pratyush123@cluster1.hhs4l.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1")
   .then(function (i){
     console.log("Database Connected");
   })
